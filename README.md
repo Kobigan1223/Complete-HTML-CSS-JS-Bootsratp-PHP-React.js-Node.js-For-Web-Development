@@ -15,19 +15,10 @@
 ![jquery](https://img.shields.io/badge/-jquery-000000?style=for-the-badge&logo=jquery)
 ![MySQL](https://img.shields.io/badge/-SQL-000000?style=for-the-badge&logo=MySQL)
 </br>
-# 👏 Tools Used
-![Github](http://img.shields.io/badge/-Github-000000?style=for-the-badge&logo=Github&logoColor=green)
-![VS Code](http://img.shields.io/badge/-VS%20Code-000000?style=for-the-badge&logo=Visual-studio-code&logoColor=blue)
-![Xampp](http://img.shields.io/badge/-Xampp-000000?style=for-the-badge&logo=Xampp-code&logoColor=blue)
 
-
-# 🧰 Features
-1
+# 🧰 Features Pre-Requisites:
 
 ## 📖  How to Download the Project and Run on your PC?
-
-### Pre-Requisites:
-
 
 1. Install any Text Editor (Sublime Text or Visual Studio Code or Atom or Brackets)
 

@@ -21,11 +21,7 @@
 
 
 # 🧰 Features
-1. Visitors/Users can browse all the Categories and Food Items 
-2. They also can order easily from the website.
-3. Users can Book Hall for Events and Rooms for their Needs.
-4. Admin can Manage Room Orders ,Hall Orders , Caegories and Food Items
-5. Admin can also Manage and Track Food Order and Delivery
+1
 
 ## 📖  How to Download the Project and Run on your PC?
 

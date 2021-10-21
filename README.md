@@ -19,28 +19,7 @@
 # 🧰 Features Pre-Requisites:
 
 ## 📖  How to Download the Project and Run on your PC?
-
-1. Install any Text Editor (Sublime Text or Visual Studio Code or Atom or Brackets)
-
-### Installation
-
-1. Download as as Zip or Clone this project
-2. Move this project to Root Directory
-```
-Local Disc D: ->Doc -> 'Complete HTML CSS JS  Bootsratp PHP React.js Node.js For Web Development'
-```
-*Local Disk C is the location where xampp was installed*
-
-
-3. Make Changes to settings
-
-4. Now, Open the project in your browser. It should run perfectly.
 </br>
-
-
-# Basic Components of a Web Layout
-
-Hi! Welcome to this beginner-friendly **Frontend Engineering** challenge for [Hacktoberfest](https://hacktoberfest.digitalocean.com/). A project focused on people getting started with frontend development.
 
 Everyone is encouraged to participate, regardless of your skill level (If you don't have the required skills, use this project as a motivation to learn those!). This is a practice project and should be considered a playground.
 
@@ -50,10 +29,9 @@ You've to basically make components which are used often in a website. For eg. N
 
 This project will be divided into two parts:
 
-1. Basic HTML,CSS and JavaScript.
+1. Basic HTML,CSS and JavaScript PHP.
 2. ReactJS
 
-Make sure the code must be unique and valid otherwise it will not be accepted.
 
 ## Guidelines
 
@@ -75,7 +53,7 @@ Please try to follow these guidelines:
 
 > **Note 1:** If you've never made a pull request before, or participated in an open-source project, we recommend taking a look at this [wonderful video tutorial](https://youtu.be/ZI2D0CI4TXs). And if you want a more complete tutorial on using github, creating branches etc. , [here's a detailed video series](https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR).Once you've got your feet wet, you're ready to come back and dive into Hacktoberfest fun!
 
-> **Note 2:** **Super Important** Only the pull requests created between October 1st, 2021 and October 31st, 2021 will be counted!
+> **Note ** **Super Important** 
 
 1. Star this repository. :stuck_out_tongue:
 
@@ -85,7 +63,7 @@ Please try to follow these guidelines:
 
 4. Set your streams so you can sync your clone with the original repo (get the latest updates)
 
-   - [ ] <code>git remote add upstream https://github.com/pcon-hacktoberfest-21/Basic-Components-of-a-Web-Layout</code>
+   - [ ] <code>git remote add upstream https://github.com/Kobigan1223/Complete-HTML-CSS-JS-Bootsratp-PHP-React.js-Node.js-For-Web-Development </code>
 
    - [ ] <code>git pull upstream main</code>
 

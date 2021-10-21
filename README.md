@@ -30,7 +30,7 @@ You've to basically make components which are used often in a website. For eg. N
 This project will be divided into two parts:
 
 1. Basic HTML,CSS and JavaScript PHP.
-2. ReactJS
+2. ReactJS & NodeJS
 
 
 ## Guidelines

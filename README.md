@@ -37,7 +37,7 @@ This project will be divided into two parts:
 
 Please try to follow these guidelines:
 
-- [ ] Use only CSS/SCSS or Styled Components for styling the app, DON'T use bootstrap, material UI, semantic UI or any other styling library. (Haha! :wink: No shortcuts here :rofl:)
+- [ ] Use  CSS/SCSS or Styled Components for styling the app,  bootstrap, material UI, semantic UI or any other styling library. (Haha! :wink: No shortcuts here :rofl:)
 
 - [ ] Try to make the UI as elegant as possible, use Cards, box-shadows etc. Choose a subtle color-theme.
 

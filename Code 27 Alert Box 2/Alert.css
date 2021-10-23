@@ -1,0 +1,68 @@
+
+/* Body */
+body{
+    display: inline;
+    margin: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* The alert message box about warning*/
+ .alert1 {
+    padding: 20px;
+    background-color: 	#ffcc00; /* yellow */
+    color: white;
+    margin-bottom: 15px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+/* The alert message box about information */
+  .alert2 {
+    padding: 20px;
+    background-color: #2986CC; /* blue */
+    color: white;
+    margin-bottom: 15px;
+    width: 55%;
+    margin-left: 22.5%;
+  }
+
+/* The alert message box about Success*/
+ .alert3 {
+    padding: 20px;
+    background-color: 	#99cc33; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    width: 60%;
+    margin-left: 20%;
+  }
+
+/* The alert message box about Errors*/
+ .alert4 {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    width: 65%;
+    margin-left: 17.5%;
+  }
+
+
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }

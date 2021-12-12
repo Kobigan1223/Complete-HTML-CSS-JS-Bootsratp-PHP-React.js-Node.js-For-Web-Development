@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:400,700&display=swap');
+
+.{
+  box-sizing: border-box; /*this makes the box get the full size of the screen*/
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding-top: 70px; /* this will always keep a padding between the nav bar and the next first section*/
+}
+
+nav{
+  background-color: #111;
+  padding: 20px;
+  /*Let's make the nav bar a Sticky one*/
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 100; /*after u put this, put a padding to the body top get the dissapeared space back*/
+}
+
+ul{
+  display: flex;
+  margin: 0; /*this will remove the empty spaces/margins coming around */
+  padding: 0;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+ul li a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.social-ul a{
+  font-size: 30px;
+  padding: 15px;
+}
+
+.flexx{
+  display: flex; /*this will display the 2 sections in this class next to each other*/
+  flex-wrap: wrap; /* then it will go to the next line, when it doesn't have space*/
+  max-width: 700px;
+  margin: 0 auto; /* this will make them align to center*/
+  justify-content: center; /*videos came to the center after this*/
+}
+
+#tribute-info{
+  max-width: 400px;
+  padding: 10px;
+}
+
+.video-wrapper{
+  margin: 10px;
+}
+#img-div{
+  background-color: #eee;  
+  margin:0;
+  padding:10px;
+}
+
+#img-div p {
+  background-color: #eee;
+  font-size: 12px;
+  margin: 0;
+  text-align:center;
+}
+
+h2{
+  text-align: center;
+}
+
+footer{
+  background-color: #111;
+  color:#fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.bg-green{
+  background-color:  	#6B8E23;
+  color: white;
+}
+
+.bg-ash{
+  background-color: #EAEDE8;
+}
+
+section{
+  padding: 20px;
+  margin: 15px auto 0; /* when u put auto 0, the margins came from left & right sides dissapears*/
+}
+
+.link{
+  font-size: 20px;
+  background-color: #EAEDE8;
+  margin: 0 auto;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
+/* make the image responsive*/
+.responsive-image{
+  display: block;
+  max-width: 100%;
+}
+  
+
+/*this is to check the main branch*/

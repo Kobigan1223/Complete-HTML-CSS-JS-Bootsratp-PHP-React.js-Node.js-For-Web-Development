@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Analisa Piecies Untuk Penilaian Aplikasi BCA Mobile</title>
+    <style>
+        .bg__hero {
+            z-index: -1;
+            background-size: cover !important;
+            background-position: center !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav position-fixed w-100 p-3 top-0 bg-primary">
+        <div class="container">
+            <p class="fw-bolder fs-5 mb-0 text-white">Analisa Pieces Untuk Penilaian Aplikasi BCA Mobile</p>
+        </div>
+    </div>
+    <div class="container text-center pt-5">
+        <p class="fs-3 mt-5 text-primary">Kuisioner Penelitian Analisa Pieces Untuk Penilaian Aplikasi BCA Mobile</p>
+        <form class="row g-3 text-start" novalidate>
+            <!-- biodata dan petunjuk pengisian -->
+            <div class="biodata__petunjuk mt-5">
+                <div class="col-md-12 fullName">
+                    <label for="validationCustom01" class="form-label">Nama</label>
+                    <input type="text" class="form-control" name="nama" required>
+                </div>
+                <div class="col-md-12 jenkel">
+                    <label for="validationCustom02" class="form-label">Jenis Kelamin</label>
+                    <input type="text" class="form-control" name="jenkel" required>
+                </div>
+                <div class="col-md-12 usia">
+                    <label for="validationCustomUsername" class="form-label">Usia</label>
+                    <input type="number" class="form-control" name="usia" required>
+                </div>
+                <div class="mt-5 petunjuk">
+                    <p class="fs-5 text-primary">Petunjuk Pengisian Kuisioner</p>
+                    <p class="fs-6">Berilah tanda checklist pada jawaban yang paling sesuai dengan pendapat anda pada kolom yang tersedia. Setiap responden hanya diperbolehkan memilih satu jawaban</p>
+                    <p class="fs-6">Skala Respon adalah sebagai berikut</p>
+                    <!-- list skala respon -->
+                    <ol>
+                        <li>STS : Sangat Tidak Setuju</li>
+                        <li>TS : Tidak Setuju</li>
+                        <li>N : Netral</li>
+                        <li>S : Setuju</li>
+                        <li>SS : Sangat Setuju</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- daftar indikator -->
+            <div class="daftar__indikator mt-5">
+                <section id="performance">
+                    <div class="fs-5 text-primary">Indikator : <span class="fw-bold">Performance</span></div>
+                    <!-- pertanyaan 1 -->
+                    <div class="container-fluid mt-5">
+                        <p>Pilihan Menu dan navigasi yang tersedia memudahkan anda menggunakan aplikasi BCA Mobile ?</p>
+                        <input type="radio" name="pil1" value="1">
+                        <label for="">1</label><br>
+                        <input type="radio" name="pil2" value="2">
+                        <label for="">2</label><br>
+                        <input type="radio" name="pil3" value="3">
+                        <label for="">3</label><br>
+                        <input type="radio" name="pil4" value="4">
+                        <label for="">4</label><br>
+                        <input type="radio" name="pil5" value="5">
+                        <label for="">5</label><br>
+                    </div>
+                    <!-- pertanyaan 2 -->
+                    <div class="container-fluid mt-5">
+                        <p>Pilihan Menu dan navigasi yang tersedia memudahkan anda menggunakan aplikasi BCA Mobile ?</p>
+                        <input type="radio" name="pil1" value="1">
+                        <label for="">1</label><br>
+                        <input type="radio" name="pil2" value="2">
+                        <label for="">2</label><br>
+                        <input type="radio" name="pil3" value="3">
+                        <label for="">3</label><br>
+                        <input type="radio" name="pil4" value="4">
+                        <label for="">4</label><br>
+                        <input type="radio" name="pil5" value="5">
+                        <label for="">5</label><br>
+                    </div>
+                </section>
+                <section id="economic" class="d-none">
+                    <div class="fs-5 text-primary">Indikator : <span class="fw-bold">Economic</span></div>
+                    <!-- pertanyaan 1 -->
+                    <div class="container-fluid mt-5">
+                        <p>Pilihan Menu dan navigasi yang tersedia memudahkan anda menggunakan aplikasi BCA Mobile ?</p>
+                        <input type="radio" name="pil1" value="1">
+                        <label for="">1</label><br>
+                        <input type="radio" name="pil2" value="2">
+                        <label for="">2</label><br>
+                        <input type="radio" name="pil3" value="3">
+                        <label for="">3</label><br>
+                        <input type="radio" name="pil4" value="4">
+                        <label for="">4</label><br>
+                        <input type="radio" name="pil5" value="5">
+                        <label for="">5</label><br>
+                    </div>
+                    <!-- pertanyaan 2 -->
+                    <div class="container-fluid mt-5">
+                        <p>Pilihan Menu dan navigasi yang tersedia memudahkan anda menggunakan aplikasi BCA Mobile ?</p>
+                        <input type="radio" name="pil1" value="1">
+                        <label for="">1</label><br>
+                        <input type="radio" name="pil2" value="2">
+                        <label for="">2</label><br>
+                        <input type="radio" name="pil3" value="3">
+                        <label for="">3</label><br>
+                        <input type="radio" name="pil4" value="4">
+                        <label for="">4</label><br>
+                        <input type="radio" name="pil5" value="5">
+                        <label for="">5</label><br>
+                    </div>
+                </section>
+                <section id="control" class="d-none">
+                    <div class="fs-5 text-primary">Indikator : <span class="fw-bold">Control</span></div>
+                    <!-- pertanyaan 1 -->
+                    <div class="container-fluid mt-5">
+                        <p>Pilihan Menu dan navigasi yang tersedia memudahkan anda menggunakan aplikasi BCA Mobile ?</p>
+                        <input type="radio" name="pil1" value="1">
+                        <label for="">1</label><br>
+                        <input type="radio" name="pil2" value="2">
+                        <label for="">2</label><br>
+                        <input type="radio" name="pil3" value="3">
+                        <label for="">3</label><br>
+                        <input type="radio" name="pil4" value="4">
+                        <label for="">4</label><br>
+                        <input type="radio" name="pil5" value="5">
+                        <label for="">5</label><br>
+                    </div>
+                    <!-- pertanyaan 2 -->
+                    <div class="container-fluid mt-5">
+                        <p>Pilihan Menu dan navigasi yang tersedia memudahkan anda menggunakan aplikasi BCA Mobile ?</p>
+                        <input type="radio" name="pil1" value="1">
+                        <label for="">1</label><br>
+                        <input type="radio" name="pil2" value="2">
+                        <label for="">2</label><br>
+                        <input type="radio" name="pil3" value="3">
+                        <label for="">3</label><br>
+                        <input type="radio" name="pil4" value="4">
+                        <label for="">4</label><br>
+                        <input type="radio" name="pil5" value="5">
+                        <label for="">5</label><br>
+                    </div>
+                </section>
+                <section id="efficiency" class="d-none">
+                    <div class="fs-5 text-primary">Indikator : <span class="fw-bold">Efficiency</span></div>
+                    <!-- pertanyaan 1 -->
+                    <div class="container-fluid mt-5">
+                        <p>Pilihan Menu dan navigasi yang tersedia memudahkan anda menggunakan aplikasi BCA Mobile ?</p>
+                        <input type="radio" name="pil1" value="1">
+                        <label for="">1</label><br>
+                        <input type="radio" name="pil2" value="2">
+                        <label for="">2</label><br>
+                        <input type="radio" name="pil3" value="3">
+                        <label for="">3</label><br>
+                        <input type="radio" name="pil4" value="4">
+                        <label for="">4</label><br>
+                        <input type="radio" name="pil5" value="5">
+                        <label for="">5</label><br>
+                    </div>
+                    <!-- pertanyaan 2 -->
+                    <div class="container-fluid mt-5">
+                        <p>Pilihan Menu dan navigasi yang tersedia memudahkan anda menggunakan aplikasi BCA Mobile ?</p>
+                        <input type="radio" name="pil1" value="1">
+                        <label for="">1</label><br>
+                        <input type="radio" name="pil2" value="2">
+                        <label for="">2</label><br>
+                        <input type="radio" name="pil3" value="3">
+                        <label for="">3</label><br>
+                        <input type="radio" name="pil4" value="4">
+                        <label for="">4</label><br>
+                        <input type="radio" name="pil5" value="5">
+                        <label for="">5</label><br>
+                    </div>
+                </section>
+            </div>
+            <!-- button simpan dan next -->
+            <div class="row mt-5">
+                <button class="btn btn-success d-none btn-simpan col-md-1 col-4 m-2">Simpan</button>
+                <button type="button" class="btn btn-primary d-none btn-back col-md-1 col-4 m-2">BACK</button>
+                <button type="button" class="btn btn-primary btn-next col-md-1 col-4 m-2">NEXT</button>
+            </div>
+            <!-- pemberian indikator buat pindah menu -->
+            <div class="indicator" data-indicator="0"></div>
+        </form>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+        const indicator = document.querySelector('.indicator')
+        const btnNext = document.querySelector('.btn-next')
+        const btnBack = document.querySelector('.btn-back')
+        const childIndex = document.querySelector('.daftar__indikator').childElementCount - 1
+
+        btnNext.addEventListener('click', () => {
+            const numberIndicator = parseInt(indicator.getAttribute('data-indicator'))
+            if (childIndex > numberIndicator) {
+                const numberNow = numberIndicator + 1
+                    // check apakah data indicator 0 jika iya maka disembunyiakan dulu biodata dan petunjuknya
+                if (numberIndicator === 0) {
+                    document.querySelector('.biodata__petunjuk').classList.add('d-none')
+                }
+                // check apakah dia berada di halaman pertama jika tidak munculkan button back
+                if (numberNow > 0) {
+                    document.querySelector('.btn-back').classList.remove('d-none')
+                }
+                // check juga apakah index tersebut merupakan index terakhir jika ya, munculkan button simpan 
+                if (childIndex == numberNow) {
+                    document.querySelector('.btn-simpan').classList.remove('d-none')
+                    document.querySelector('.btn-next').classList.add('d-none')
+                }
+
+                // ubah data indikator menjadi index yang dipilih
+                indicator.removeAttribute('data-indicator')
+                indicator.setAttribute('data-indicator', numberNow)
+
+                // ubah indikatornya
+                document.querySelector('.daftar__indikator').children[numberIndicator].classList.add('d-none')
+                document.querySelector('.daftar__indikator').children[numberNow].classList.remove('d-none')
+            }
+        });
+
+        btnBack.addEventListener('click', () => {
+            const numberIndicator = parseInt(indicator.getAttribute('data-indicator'))
+            if (childIndex >= numberIndicator) {
+                const numberNow = numberIndicator - 1
+                    // check apakah data indicator 0 jika iya maka disembunyiakan dulu biodata dan petunjuknya
+                if (numberNow === 0) {
+                    document.querySelector('.biodata__petunjuk').classList.remove('d-none')
+                    document.querySelector('.btn-back').classList.add('d-none')
+                    document.querySelector('.btn-next').classList.remove('d-none')
+                }
+                // check apakah dia berada di halaman pertama jika tidak munculkan button back
+                if (numberNow > 0) {
+                    document.querySelector('.btn-back').classList.remove('d-none')
+                    document.querySelector('.btn-next').classList.remove('d-none')
+                    document.querySelector('.btn-simpan').classList.add('d-none')
+                }
+
+                // ubah data indikator menjadi index yang dipilih
+                indicator.removeAttribute('data-indicator')
+                indicator.setAttribute('data-indicator', numberNow)
+
+                // ubah indikatornya
+                document.querySelector('.daftar__indikator').children[numberIndicator].classList.add('d-none')
+                document.querySelector('.daftar__indikator').children[numberNow].classList.remove('d-none')
+            }
+        })
+    </script>
+</body>
+
+</html>

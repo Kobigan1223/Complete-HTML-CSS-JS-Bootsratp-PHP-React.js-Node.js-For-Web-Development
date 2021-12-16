@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8efef;
+}
+
+.container {
+    height: 450px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .left {
+    height: auto;
+    width: 300px;
+}
+
+.container .left img {
+    max-width: 300px;
+    object-fit: cover;
+}
+
+.container .right {
+    height: auto;
+    width: 500px;
+    padding: 20px;
+}
+
+.container .right h3 {
+    margin: 10px 20px;
+    color: #222;
+    font-weight: bold;
+}
+
+.container .right p {
+    margin: 10px 20px;
+    width: 300px;
+    color: #222;
+}
+
+.container .inputContainer {
+    margin: 20px 20px;
+}
+
+.container .inputContainer input {
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+    box-shadow: 1px 2px 3px #ccc;
+}
+
+.container .inputContainer .btn {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .inputContainer .btn a {
+    text-decoration: none;
+    color: #046586;
+}
+
+.container .inputContainer .btn button {
+    height: 40px;
+    width: 100px;
+    background: #046586;
+    border: 0;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px #046586;
+    cursor: pointer;
+}
+
+hr {
+    margin: 20px 0px;
+}
+
+.container .other {
+    margin: 10px 0px;
+}
+
+.container .other p {
+    text-align: center;
+    color: #ccc;
+    margin-left: 50px;
+}
+
+.container .btn {
+    display: flex;
+}
+
+.container .btn div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container .btn div img {
+    max-width: 50px;
+    padding-left: 20px;
+    object-fit: cover;
+}
+
+.container .btn div h3 {
+    color: #046586;
+}
+
+.container .other a {
+    color: #046586;
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 450px;
+    }
+    .container .left {
+        display: none;
+    }
+}
+

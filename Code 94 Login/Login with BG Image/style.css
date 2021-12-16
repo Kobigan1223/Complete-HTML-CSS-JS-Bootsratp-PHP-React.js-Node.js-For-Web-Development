@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+    background: #0099e8;
+}
+
+.container {
+    height: 600px;
+    width: 400px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('./assets/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container .imgBox {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.container .imgBox img {
+    max-width: 150px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+}
+
+.container .imgBox h1 {
+    color: #fff;
+}
+
+.container form {
+    margin: 50px 30px;
+}
+
+.container .form-group {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.container .form-group .fas {
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    color: #fff;
+}
+
+.container .form-group input {
+    height: 40px;
+    width: 350px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+::placeholder {
+    color: #ccc;
+}
+
+.container form .checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    color: #fff;
+}
+
+.container form .checkbox a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container button {
+    height: 40px;
+    width: 350px;
+    margin: 50px 0px;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.container .signup {
+    position: absolute;
+    bottom: 10%;
+    left: 48%;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+

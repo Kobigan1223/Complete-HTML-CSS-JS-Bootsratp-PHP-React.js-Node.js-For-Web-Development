@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+figure.container {
+    color: #fff;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 220px;
+    max-width: 310px;
+    max-height: 220px;
+    width: 100%;
+    text-align: center;
+}
+
+figure.container * {
+    box-sizing: border-box;
+}
+
+figure.container img {
+    opacity: 1;
+    width: 100%;
+    object-fit: cover;
+    transition: opacity 0.35s;
+}
+
+figure.container > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+figure.container > div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s;
+    background: linear-gradient(45deg, #000000 0%, transparent 40%, rgba(255,255,255,0.15));
+}
+
+figure.container .curl {
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(225deg, #ffffff, #f3f3f3 20%, #bbbbbb 38%, #aaaaaa 44%, #888888 50%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.3));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease;
+}
+
+figure.container .curl::before,
+figure.container .curl::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: 6%;
+    left: 12%;
+    width: 70%;
+    max-width: 300px;
+    max-height: 100px;
+    height: 55%;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.3);
+    transform: skew(-10deg) rotate(-6deg);
+}
+
+figure.container .curl::after {
+    left: auto;
+    right: 6%;
+    bottom: auto;
+    top: 14%;
+    transform: skew(-15deg) rotate(-84deg);
+}
+
+figure.container:hover > div::before,
+figure.container:hover > div::after {
+    opacity: 1;
+}
+
+figure.container:hover .curl,
+figure.container.hover .curl {
+    width: 90px;
+    height: 90px;
+}
+

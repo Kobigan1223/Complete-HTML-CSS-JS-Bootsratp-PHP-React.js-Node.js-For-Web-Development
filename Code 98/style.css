@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,800,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    justify-content: center;
+}
+
+.container {
+    background: #133a53 url('./assets/img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+
+.container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container .overlay .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 70vw;
+    margin: auto 30px;
+    transform-origin: left;
+    animation: reveal 1s ease-in-out forwards;
+}
+
+.container .overlay .content h1 {
+    font-size: 90px;
+    line-height: 0.9;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.container .overlay .content p {
+    font-size: 24px;
+    color: #fff;
+}
+
+.container .overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0777e0;
+    z-index: 3;
+    animation: reveal 0.5s reverse forwards;
+    animation-delay: 0.5s;
+    transform-origin: top;
+}
+
+.container .overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #12f0d2;
+    z-index: 2;
+    animation: reveal 0.7s reverse forwards;
+    animation-delay: 0.7s;
+    transform-origin: right;
+}
+
+@keyframes reveal {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+

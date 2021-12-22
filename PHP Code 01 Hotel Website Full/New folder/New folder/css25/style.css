@@ -1,0 +1,1112 @@
+
+/*UPPER*/
+.header {
+
+  z-index: 1;
+  overflow: hidden;
+  background-color: rgb(255,255,255,0.9);
+  padding: 20px 10px;
+
+    width: 100%;
+    position: fixed;
+  
+}
+
+.header a {
+
+
+  float: left;
+  background-color: rgb(255,255,255,0.1);
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 15px;
+  border-radius: 4px;
+
+}
+
+
+.header a.logo {
+  font-size: 65px;
+  font-weight: bold;
+  font-family: new2;
+  display:block;
+  font-weight: 1;
+  color: black;
+
+}
+.header a.logo:hover {
+   background-color: rgb(255,255,255,0.1);
+   color: black;
+}
+
+.header a:hover {
+  background-color: black;/*#1ac6ff;*/
+  opacity: 0.6;
+  
+
+  color: white;
+}
+
+.header a:active {
+  background-color: #1ac6ff;
+  color: white;
+
+}
+
+
+.header-right {
+  float: right;
+  display:blocks;
+
+
+}
+
+#more
+{
+
+  display: none;
+
+}
+
+#hidemore{
+
+  display: none;
+
+}
+
+/*lower*/
+
+.header2 {
+
+  z-index: 1;
+  overflow: hidden;
+  background-color: rgb(255,255,255,0.3);
+  padding: 15px 5px;
+
+  width: 100%;
+  position: fixed;
+  top:79px;
+
+
+}
+
+.header2 a {
+
+
+  float: left;
+  background-color: rgb(255,255,255,0.0);
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 10px;
+  border-radius: 4px;
+
+
+
+}
+
+
+.header2 a.logo {
+  font-size: 65px;
+  font-weight: bold;
+  font-family: new2;
+  display:blocks;
+  font-weight: 1;
+  color: black;
+
+}
+.header2 a.logo:hover {
+   background-color: rgb(255,255,255,0.1);
+   color: black;
+}
+
+.header2 a:hover {
+  background-color: black;/*#1ac6ff;*/
+  color: white;
+  opacity: 0.6;
+}
+
+.header2 a:active {
+  background-color: #1ac6ff;
+  color: white;
+}
+
+
+.header-right2 {
+  float: right;
+  display:blocks;
+
+
+}
+/*END-HEADER AND NEVIGATION*/
+
+/*PAGE LAYOUT*/
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: monospace;
+  height: 9.9rem;            /* Footer height */
+  position: absolute;
+  top: 1080px;
+  background-color: rgb(255,255,255,0.9);
+}
+#header {
+  position: absolute;
+  top: -18px;
+  width: 100%;
+
+  height: 8.5rem;            /* Footer height */
+}
+
+/*PAGE-LAYOUT*/
+
+
+#logformbackgr{
+
+  width: 100%; 
+  height: 779px; 
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  top:143px
+
+
+}
+
+#logformbackgr2{
+
+  width: 100%; 
+  height: 938px;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  top:143px
+  
+
+}
+
+#logformbackgr3{
+
+  width: 100%; 
+  height: 780px;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  top:143px
+  
+
+}
+
+/*LOGIN-FORM CSS*/
+
+.head-container {
+  padding-left: 3%;
+  padding-bottom: 1px;
+  background-color: rgb(0,0,0,1.7);
+  
+  
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  
+}
+
+.form-container-signup{
+
+
+  padding-left: 3%;
+  background-color: rgb(255,255,255,1.7);
+  margin-top: -18px;
+  color: white;
+  padding-bottom: 20px;
+ 
+  
+}
+
+.form-container{
+
+
+  padding-left: 3%;
+  background-color: rgb(255,255,255,1.7);
+  margin-top: -18px;
+  color: white;
+  padding-bottom: 50px;
+
+  
+}
+
+.login-container{
+
+  text-align: left;
+  
+  position: relative;
+  
+  margin-left:  25%;
+  overflow: auto;
+  width: 50%;
+  
+
+
+}
+.btn-container{
+
+  background-color: rgb(0,0,0,1.7);
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-bottom: 15px;
+
+
+}
+/*END-LOGIN-FORM*/
+
+.mobiledet{
+
+
+  display: none;
+
+}
+a{
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+input[type=text], input[type=password] {
+  width: 97%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius:6px;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  
+  width: 20%;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+body {
+
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-color: rgb(0,0,0,0.5);
+}
+
+
+
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.quickABOUT{
+
+  position: absolute;
+  color: white;
+  width: 900px;
+  left:10%;
+  top:350px;
+  background-color: transparent;
+
+  font-family: monospace;
+  font-size: 120%;
+
+   
+   
+
+}
+
+.quickLOCATION{
+
+  position: absolute;
+  color: white;
+  width: 500px;
+  right:10%;
+  top:350px;
+  background-color: transparent;
+
+  font-family: monospace;
+  font-size: 120%;
+  
+   
+   
+
+}
+
+.absolute {
+
+  
+  position: absolute;
+  top: 30%;
+  margin-left:40%;
+  margin-right:auto;
+  
+  
+
+  width: 500px;
+  height: 500px;
+  color:white;
+  font-size:380%;
+  font-family: new;
+  font-weight: 100;
+}
+
+.footer-list ul{
+
+  list-style:none;
+  
+}
+
+.footer-left-content a{
+
+  color:black;
+
+}
+
+
+.FAQbtns button{
+
+     background-color: rgb(0,0,0,0.7);
+
+}
+
+.FAQbtns button:hover{
+
+     background-color: rgb(256,256,256,0.7);
+     color: black;
+
+}
+/*FONT ANDANIMATIONS DECLARE*/
+
+#searchID{
+
+     margin-top: 390px;
+     width:460px;
+     height:53px;
+     position:fixed;
+     left: 40%;
+     background-color: rgb(255,255,255,0.7);
+     z-index: 1;
+     font-family: monospace; 
+     font-size: 15px;
+
+
+}
+
+
+
+/* ======ANIMATIONS==========*/
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/* =========FONTS=============*/
+@font-face{
+  font-family: myFirstFont;
+  src: url(.. /fonts/Mobstex.otf);
+}
+
+@font-face{
+  font-family: new;
+  src: url(../fonts/Mobstex.otf);
+  
+
+}
+
+@font-face{
+  font-family: new2;
+  src: url(../fonts/Cyttah.otf);
+  
+
+}
+
+/*END-FONT ANDANIMATIONS DECLARE*/
+
+@media screen and (max-width: 1440px) {
+  .header {
+
+  z-index: 1;
+  overflow: hidden;
+  background-color: rgb(255,255,255,0.9);
+  padding: 10px 5px;
+
+    width: 100%;
+    position: fixed;
+  
+}
+
+.header a {
+
+
+  float: left;
+  background-color: rgb(255,255,255,0.1);
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 15px;
+  border-radius: 4px;
+
+}
+
+
+.header a.logo {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: new2;
+  display:blocks;
+  font-weight: 1;
+  color: black;
+
+
+}
+.header a.logo:hover {
+   background-color: rgb(255,255,255,0.1);
+   color: black;
+}
+
+.header a:hover {
+  background-color: black;/*#1ac6ff;*/
+  opacity: 0.6;
+  
+
+  color: white;
+}
+
+.header a:active {
+  background-color: #1ac6ff;
+  color: white;
+
+}
+
+
+.header-right {
+  float: right;
+  display:blocks;
+
+
+}
+
+#more
+{
+
+  display: none;
+
+}
+
+#hidemore{
+
+  display: none;
+
+}
+
+/*lower*/
+
+.header2 {
+
+  z-index: 1;
+  overflow: hidden;
+  background-color: rgb(255,255,255,0.3);
+  padding: 5px 5px;
+
+  width: 100%;
+  position: fixed;
+  top:59px;
+
+
+}
+
+.header2 a {
+
+
+  float: left;
+  background-color: rgb(255,255,255,0.0);
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 10px;
+  border-radius: 4px;
+
+
+
+}
+
+
+.header2 a.logo {
+  font-size: 65px;
+  font-weight: bold;
+  font-family: new2;
+  display:blocks;
+  font-weight: 1;
+  color: black;
+
+}
+.header2 a.logo:hover {
+   background-color: rgb(255,255,255,0.1);
+   color: black;
+}
+
+.header2 a:hover {
+  background-color: black;/*#1ac6ff;*/
+  color: white;
+  opacity: 0.6;
+}
+
+.header2 a:active {
+  background-color: #1ac6ff;
+  color: white;
+}
+
+
+.header-right2 {
+  float: right;
+  display:blocks;
+
+
+}
+/*END-HEADER AND NEVIGATION*/
+
+/*PAGE LAYOUT*/
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: monospace;
+  height: 9.9rem;            /* Footer height */
+  position: absolute;
+  top: 1080px;
+  background-color: rgb(255,255,255,0.9);
+}
+#header {
+  position: absolute;
+  top: -18px;
+  width: 100%;
+  
+  height: 5.5rem;            /* Footer height */
+}
+
+/*PAGE-LAYOUT*/
+
+/*LOGIN-FORM CSS*/
+
+.head-container {
+  padding-left: 3%;
+  padding-bottom: 1px;
+  background-color: rgb(0,0,0,1.7);
+  
+  
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 13px;
+
+  
+}
+
+.form-container-signup{
+
+
+  padding-left: 3%;
+  background-color: rgb(255,255,255,1.7);
+  margin-top: -18px;
+  color: white;
+  padding-bottom: 20px;
+  font-size: 15px;
+
+  
+}
+
+.form-container{
+
+
+  padding-left: 3%;
+  background-color: rgb(255,255,255,1.7);
+  margin-top: -18px;
+  color: white;
+  padding-bottom: 50px;
+  font-size: 13px;
+}
+
+.login-container{
+  text-align: left;
+  
+  position: relative;
+  
+  margin-left:  20%;
+  overflow: auto;
+  width: 60%;
+  
+
+
+}
+.btn-container{
+
+  background-color: rgb(0,0,0,1.7);
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-bottom: 15px;
+
+
+}
+/*END-LOGIN-FORM*/
+
+.mobiledet{
+
+
+  display: none;
+
+}
+a{
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+input[type=text], input[type=password] {
+  width: 97%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius:6px;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  
+  width: 20%;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+body {
+
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-color: rgb(0,0,0,0.5);
+}
+
+
+
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.quickABOUT{
+
+  width: 50%;
+  left:8%;
+  top:290px;
+ 
+   
+   
+
+}
+
+.quickLOCATION{
+
+  
+  width: 50%;
+  right:8%;
+  top:290px;
+ 
+   
+   
+
+}
+
+.absolute {
+
+  
+  
+  top: 26%;
+  margin-left:35%;
+  margin-right:auto;
+  
+  
+
+  width: 35%;
+  height: 40%;
+  
+}
+
+.footer-list ul{
+
+  list-style:none;
+  
+}
+
+.footer-left-content a{
+
+  color:black;
+
+}
+
+
+.FAQbtns button{
+
+     background-color: rgb(0,0,0,0.7);
+
+}
+
+.FAQbtns button:hover{
+
+     background-color: rgb(256,256,256,0.7);
+     color: black;
+
+}
+
+#Q1, #qd1,#Q2, #qd2,#Q3, #qd3{
+    font-size:13px;
+
+}
+
+#logformbackgr{
+
+  width: 100%; 
+  
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  top:103px
+
+
+}
+
+#logformbackgr2{
+
+  width: 100%; 
+  height: 977px;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  top:103px
+  
+
+}
+#logformbackgr3{
+
+  width: 100%; 
+  height: 977px;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  top:103px
+  
+
+}
+#searchID{
+
+     margin-top: 320px;
+     width:460px;
+     height:53px;
+     position:fixed;
+     left: 36%;
+     background-color: rgb(255,255,255,0.7);
+     z-index: 1;
+     font-family: monospace; 
+     font-size: 15px;
+
+
+}
+
+  
+
+}
+
+
+@media screen and (max-width: 850px) {
+  
+@-webkit-keyframes side {
+  from {left: 100%} 
+  to {left: 73%}
+}
+
+@keyframes side {
+  from {left: 100%} 
+  to {left: 73%}
+}
+
+.header2 {
+  
+   -webkit-animation-name: side;
+  -webkit-animation-duration:0.1s;
+  animation-name: side;
+  animation-duration:0.1s;
+  z-index: 1;
+  position: fixed;
+  right: 0;
+  padding-bottom: 40px;
+  width: 27%;
+  background-color: rgb(255,255,255,0.9);
+  top:59px;
+  height: 100%;
+  overflow: auto;
+}
+
+#nevigate{
+
+   display: none;
+   z-index: 1;
+}
+.header a.logo {
+ 
+  display: none;
+
+
+}
+
+.header2 a {
+
+
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 20px;
+  border-radius: 4px;
+  text-align: left;
+  margin-left: 4%;
+
+}
+
+
+.quickABOUT{
+
+  display: none;
+   
+   
+
+}
+
+.quickLOCATION{
+
+
+  display: none;
+   
+   
+
+}
+
+.absolute {
+  position: absolute;
+  top: 130px;
+  display: show;
+  font-size: 40px;
+  width: 70%;
+}
+
+
+#footer {
+  
+ 
+  display: none;
+}
+#logformbackgr{
+
+  width:100%; 
+  
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  top:59px
+
+
+
+}
+
+
+#logformbackgr2{
+
+  width:100%; 
+  
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  top:59px
+
+
+}
+
+#logformbackgr3{
+ width:100%; 
+  
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  top:59px
+
+
+}
+
+.login-container{
+
+  position: absolute;
+  left: -70px;
+  width: 93%;
+  top: -20px;
+  font-size: 15px;
+
+
+}
+
+
+.form-container{
+
+
+  font-size: 15px;
+
+ 
+  height: 400px;
+}
+
+#more
+{
+
+  display: block;
+
+}
+
+#hidemore{
+
+  display: block;
+
+}
+#indexDET{
+
+ width: 50%;
+  position: absolute;
+  left: -15px;
+
+}
+
+#searchID{
+
+  width: 50%;
+  position: absolute;
+  left: 25%;
+}
+
+#form-container{
+
+  height: auto;
+
+}
+
+#del1{
+
+  width: auto;
+
+}
+.mobiledet{
+
+
+  display: block;
+  background-color: rgb(255,255,255,0.8);
+  height: auto;
+  width: 97%;
+  border-radius: 5px;
+  position: absolute;
+  top: 500px;
+  left: 2%;
+
+}
+
+
+}
+
+
+
